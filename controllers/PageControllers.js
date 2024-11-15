@@ -13,9 +13,13 @@ const notificationView = (req,res)=>{
 const userView = (req,res)=>{
   res.render('user')
 }
+const Typography = (req,res)=>{
+  res.render('typography')
+}
 module.exports = {
   mainView,
   tableView,
   notificationView,
-  userView
+  userView,
+  Typography
 }
