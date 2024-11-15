@@ -16,10 +16,26 @@ const userView = (req,res)=>{
 const Typography = (req,res)=>{
   res.render('typography')
 }
+const Icons = (req,res)=>{
+  res.render('icons')
+}
+const Maps = (req,res)=>{
+  res.render('maps')
+}
+const RTL = (req,res)=>{
+  res.render('rtl')
+}
+const upgrade = (req,res)=>{
+  res.render('upgrade')
+}
 module.exports = {
   mainView,
   tableView,
   notificationView,
   userView,
-  Typography
+  Typography,
+  Icons,
+  Maps,
+  RTL,
+  upgrade
 }
